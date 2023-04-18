@@ -67,7 +67,7 @@ html,body { height: 100%; overflow: hidden; }
 容器,最小高度100%`display: flex; flex-direction: column`  
 顶部、底部正常设置样式，`flex-shrink: 0`不缩小  
 中间设置`flex: 1`或`flex-grow: 1`有剩余空间则占满  
-[示例](./%E9%A1%B6%E9%83%A8%E5%92%8C%E5%BA%95%E9%83%A8%E5%9B%BA%E5%AE%9A%E9%AB%98%E5%BA%A6%EF%BC%8C%E4%B8%AD%E9%97%B4%E5%8F%AF%E4%BB%A5%E6%BB%91%E5%8A%A8.html)
+[示例](./css/%E9%A1%B6%E9%83%A8%E5%92%8C%E5%BA%95%E9%83%A8%E5%9B%BA%E5%AE%9A%E9%AB%98%E5%BA%A6%EF%BC%8C%E4%B8%AD%E9%97%B4%E5%8F%AF%E4%BB%A5%E6%BB%91%E5%8A%A8.html)
 
 ### px和rem的了解
 px是绝对单位,表示屏幕上的一个点,在不同大小屏幕和设备上显式的效果不相同.  
@@ -89,6 +89,6 @@ rem是相对单位,相对于根元素字体的大小.一般浏览器的字体大
 
 ### 1rem的实现方式
 1物理像素取决于屏幕的特性和用户缩放比例,在移动端如果是Retina高清屏,drp可能是2或3,在pc端看到的1px,在移动端可能看到的是2px或3px
-[::和scaleY(0.5)](./%E4%BC%AA%E5%85%83%E7%B4%A0%E5%92%8CscaleY.html)
+[::和scaleY(0.5)](./css/%E4%BC%AA%E5%85%83%E7%B4%A0%E5%92%8CscaleY.html)
 
-[背景色渐变](./%E8%83%8C%E6%99%AF%E8%89%B2%E6%B8%90%E5%8F%98.html)
+[背景色渐变](./css/%E8%83%8C%E6%99%AF%E8%89%B2%E6%B8%90%E5%8F%98.html)
